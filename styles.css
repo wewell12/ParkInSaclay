@@ -5,6 +5,7 @@
 /*types*/
 body{
     background-color: #D6DBDF; 
+    margin:0px;
 }
 
 /*Ids*/
@@ -16,17 +17,19 @@ body{
 }
 
 #Map-title{
+    padding-left: 5%;
     font-size: 50px;
     color : #D6DBDF;
 }
 
 #retour{
+    float : right;
+    margin-top: -25%;
     border : 2px solid #63003C;
-    height : 30%;
-    width : 30%;
+    height : 40%;
+    width : 40%;
     border-radius: 20px;
     font-size : 30px; 
-    align : right;
 }
 
 #retour:hover {
@@ -40,8 +43,9 @@ body{
 }
 
 #map-head{
-    height : 15%;
-    width : 100%;
+    padding-top: 15%;
+    margin-top: -35px;
+    height : 120px;
     background-color: #63003C;
 }
 
