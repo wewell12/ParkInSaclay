@@ -1,0 +1,65 @@
+/* styles.css */
+
+/* Add styles here to customize the appearance of your app */
+
+/*types*/
+body{
+    background-color: #D6DBDF; 
+}
+
+/*Ids*/
+#Main-title{
+    font-size: 400%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+#Map-title{
+    font-size: 50px;
+    color : #D6DBDF;
+}
+
+#retour{
+    border : 2px solid #63003C;
+    height : 30%;
+    width : 30%;
+    border-radius: 20px;
+    font-size : 30px; 
+    align : right;
+}
+
+#retour:hover {
+    background-color:#63003C;
+    color : #D6DBDF;
+    border : 2px solid #D6DBDF;
+}
+
+#acc-but{
+    margin-top : 20%;
+}
+
+#map-head{
+    height : 15%;
+    width : 100%;
+    background-color: #63003C;
+}
+
+/*class*/
+.acceuil{   font-size : 30px; 
+            height : 15%;
+            width : 90%;
+            border : 2px solid #63003C;
+            float : left;
+            margin-left: 5%;
+            margin-bottom: 10%;
+            padding-top: 5%;
+            padding-bottom: 5%;
+            border-radius: 20px;
+            background-color: #D6DBDF;
+        }
+
+.acceuil:hover {
+    background-color:#63003C;
+    color : #D6DBDF;
+}
